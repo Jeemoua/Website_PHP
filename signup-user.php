@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Signup Form</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -13,7 +13,6 @@
             <div class="col-md-4 offset-md-4 form">
                 <form action="signup-user.php" method="POST" autocomplete="">
                     <h2 class="text-center">Signup Form</h2>
-                    <p class="text-center">It's quick and easy.</p>
                     <?php
                     if(count($errors) == 1){
                         ?>
