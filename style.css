@@ -38,11 +38,12 @@ html,body{
    font-size: 15px;
 }
 .container .form form .button{
-    background: #efcc3d;
-    color: #000000;
+    background: #eabd0b;
+    color: #ffffff;
     font-size: 17px;
     font-weight: 500;
     transition: all 0.3s ease;
+    border-radius: 25px;
 }
 .container .form form .button:hover{
     background: #efcc3d;
